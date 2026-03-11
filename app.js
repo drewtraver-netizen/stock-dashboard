@@ -96,6 +96,15 @@ function drawChart(rows) {
     const values = drawChart(rows);
     const latest = values[values.length - 1];
     meta.textContent = `Sheet: ${payload.sheet} • Points: ${rows.length} • Latest S&P: ${latest}`;
+
+    // Show current model score
+    const scoreEl = document.getElementById('modelScore');
+    if (scoreEl && payload.modelScore != null) {
+      const pct = Math.round(payload.modelScore * 100);
+      scoreEl.textContent = pct + '%';
+      // Color: green if high, yellow if mid, red if low
+      scoreEl.style.color = pct >= 75 ? '#4caf84' : pct >= 40 ? '#f6c343' : '#f06292';
+    }
   } catch (err) {
     meta.textContent = `${err.message}. If you opened index.html directly, run a local web server first.`;
     console.error(err);

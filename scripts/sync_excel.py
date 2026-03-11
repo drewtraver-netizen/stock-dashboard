@@ -94,11 +94,20 @@ def main():
 
     headers, rows = load_sheet(excel_path, args.sheet)
 
+    # Read current model score from Portfolios tab J17
+    model_score = None
+    try:
+        wb_score = load_workbook(excel_path, data_only=True, read_only=True, keep_vba=True)
+        model_score = wb_score["Portfolios"].cell(row=17, column=10).value
+    except Exception as e:
+        print(f"Warning: could not read model score: {e}", file=sys.stderr)
+
     payload_core = {
         "sheet": args.sheet,
         "source": str(excel_path),
         "headers": headers,
         "rows": rows,
+        "modelScore": model_score,
     }
     content_hash = stable_hash(payload_core)
 
