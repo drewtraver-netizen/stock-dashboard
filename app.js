@@ -93,6 +93,23 @@ function drawChart(rows) {
     const rows = payload.rows || [];
     if (!rows.length) throw new Error('No rows found in data.');
 
+    // Append live quote as today's point if newer than last row
+    if (payload.spQuote != null || payload.modelScore != null) {
+      const today = new Date().toISOString().slice(0, 10);
+      const lastDate = (rows[rows.length - 1]?.Date || '').slice(0, 10);
+      if (today > lastDate) {
+        rows.push({
+          Date: today + 'T00:00:00',
+          'S&P': payload.spQuote ?? null,
+          Signal: payload.modelScore ?? null
+        });
+      } else {
+        // Update the last row with live values
+        rows[rows.length - 1]['S&P'] = payload.spQuote ?? rows[rows.length - 1]['S&P'];
+        rows[rows.length - 1]['Signal'] = payload.modelScore ?? rows[rows.length - 1]['Signal'];
+      }
+    }
+
     const values = drawChart(rows);
     const latest = values[values.length - 1];
     meta.textContent = `Sheet: ${payload.sheet} • Points: ${rows.length} • Latest S&P: ${latest}`;
