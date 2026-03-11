@@ -97,6 +97,12 @@ function drawChart(rows) {
     const latest = values[values.length - 1];
     meta.textContent = `Sheet: ${payload.sheet} • Points: ${rows.length} • Latest S&P: ${latest}`;
 
+    // Show S&P quote
+    const spEl = document.getElementById('spQuote');
+    if (spEl && payload.spQuote != null) {
+      spEl.textContent = Number(payload.spQuote).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    }
+
     // Show current model score
     const scoreEl = document.getElementById('modelScore');
     if (scoreEl && payload.modelScore != null) {

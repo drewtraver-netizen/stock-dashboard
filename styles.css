@@ -19,7 +19,21 @@ body {
   margin: 0 auto;
   padding: 24px;
 }
-h1 { margin: 0 0 8px 0; }
+h1 { margin: 0; }
+.header-row {
+  display: flex;
+  align-items: baseline;
+  gap: 24px;
+  margin-bottom: 8px;
+}
+.sp-quote {
+  font-size: 28px;
+  font-weight: 700;
+  color: #7aa2ff;
+}
+.sp-quote span {
+  font-size: 36px;
+}
 #meta { color: var(--muted); margin: 0 0 16px 0; }
 .card {
   background: var(--panel);

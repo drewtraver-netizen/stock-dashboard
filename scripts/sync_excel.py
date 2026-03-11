@@ -94,14 +94,17 @@ def main():
 
     headers, rows = load_sheet(excel_path, args.sheet)
 
-    # Read current model score from Portfolios tab J17
+    # Read current model score (J17) and S&P quote (V5) from Portfolios tab
     model_score = None
+    sp_quote = None
     try:
         from openpyxl import load_workbook as _load_workbook
-        wb_score = _load_workbook(excel_path, data_only=True, read_only=True, keep_vba=True)
-        model_score = wb_score["Portfolios"].cell(row=17, column=10).value
+        wb_port = _load_workbook(excel_path, data_only=True, read_only=True, keep_vba=True)
+        ws_port = wb_port["Portfolios"]
+        model_score = ws_port.cell(row=17, column=10).value
+        sp_quote = ws_port.cell(row=5, column=22).value
     except Exception as e:
-        print(f"Warning: could not read model score: {e}", file=sys.stderr)
+        print(f"Warning: could not read Portfolios data: {e}", file=sys.stderr)
 
     payload_core = {
         "sheet": args.sheet,
@@ -109,6 +112,7 @@ def main():
         "headers": headers,
         "rows": rows,
         "modelScore": model_score,
+        "spQuote": sp_quote,
     }
     content_hash = stable_hash(payload_core)
 
