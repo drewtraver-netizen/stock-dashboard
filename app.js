@@ -125,6 +125,14 @@ function drawChart(rows) {
       ).join('');
     }
 
+    // Show YTD return
+    const ytdEl = document.getElementById('ytdReturn');
+    if (ytdEl && payload.ytdReturn != null) {
+      const pct = (payload.ytdReturn * 100).toFixed(2);
+      ytdEl.textContent = (pct > 0 ? '+' : '') + pct + '%';
+      ytdEl.style.color = pct >= 0 ? '#4caf84' : '#f06292';
+    }
+
     // Show S&P quote
     const spEl = document.getElementById('spQuote');
     if (spEl && payload.spQuote != null) {

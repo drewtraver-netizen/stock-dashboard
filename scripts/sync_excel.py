@@ -103,6 +103,7 @@ def main():
         ws_port = wb_port["Portfolios"]
         model_score = ws_port.cell(row=17, column=10).value
         sp_quote = ws_port.cell(row=5, column=22).value
+        ytd_return = ws_port.cell(row=21, column=16).value
 
         # Portfolio weights: symbols M28:M43, weights Q28:Q43
         portfolio_weights = []
@@ -122,6 +123,7 @@ def main():
         "modelScore": model_score,
         "spQuote": sp_quote,
         "portfolioWeights": portfolio_weights,
+        "ytdReturn": ytd_return,
     }
     content_hash = stable_hash(payload_core)
 
