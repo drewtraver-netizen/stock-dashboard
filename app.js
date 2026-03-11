@@ -49,7 +49,12 @@ function drawChart(rows) {
         mode: 'index',
         intersect: false
       },
-      plugins: { legend: { display: true } },
+      plugins: {
+        legend: {
+          display: true,
+          labels: { color: '#ffffff', font: { size: 13 } }
+        }
+      },
       scales: {
         x: {
           ticks: {
