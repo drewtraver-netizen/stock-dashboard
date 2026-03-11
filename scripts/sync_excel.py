@@ -120,11 +120,19 @@ def main():
     }
 
     data_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    # Also write data.js so index.html works when opened directly (file://)
+    js_path = repo_root / "data" / "data.js"
+    js_path.write_text(
+        "window.DASHBOARD_DATA = " + json.dumps(payload, indent=2, ensure_ascii=False) + ";\n",
+        encoding="utf-8",
+    )
+
     state_path.write_text(
         json.dumps({"contentHash": content_hash, "updatedAt": payload["generatedAt"]}, indent=2),
         encoding="utf-8",
     )
-    print(f"Updated {data_path} with {len(rows)} rows.")
+    print(f"Updated {data_path} and data/data.js with {len(rows)} rows.")
 
     if args.commit:
         try:

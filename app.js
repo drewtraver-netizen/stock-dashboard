@@ -1,4 +1,7 @@
 async function loadData() {
+  // Use inline data.js if available (works when opened via file://)
+  if (window.DASHBOARD_DATA) return window.DASHBOARD_DATA;
+  // Fall back to fetch (works when served over http)
   const res = await fetch('./data/data.json', { cache: 'no-store' });
   if (!res.ok) throw new Error(`Failed to load data: ${res.status}`);
   return res.json();
@@ -59,8 +62,13 @@ function drawChart(rows) {
           type: 'linear',
           position: 'right',
           beginAtZero: false,
+          min: 0,
+          max: 1,
           grid: { drawOnChartArea: false },
-          title: { display: true, text: 'Model Score' }
+          title: { display: true, text: 'Model Score' },
+          ticks: {
+            callback: value => Math.round(value * 100) + '%'
+          }
         }
       }
     }
