@@ -768,7 +768,7 @@ window.DASHBOARD_DATA = {
       "Signal": 0.25
     }
   ],
-  "modelScore": null,
-  "generatedAt": "2026-03-11T23:36:28.428191+00:00",
+  "modelScore": 0.25,
+  "generatedAt": "2026-03-11T23:36:41.249478+00:00",
   "rowCount": 152
 };

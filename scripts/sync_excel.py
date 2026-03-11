@@ -97,7 +97,8 @@ def main():
     # Read current model score from Portfolios tab J17
     model_score = None
     try:
-        wb_score = load_workbook(excel_path, data_only=True, read_only=True, keep_vba=True)
+        from openpyxl import load_workbook as _load_workbook
+        wb_score = _load_workbook(excel_path, data_only=True, read_only=True, keep_vba=True)
         model_score = wb_score["Portfolios"].cell(row=17, column=10).value
     except Exception as e:
         print(f"Warning: could not read model score: {e}", file=sys.stderr)
