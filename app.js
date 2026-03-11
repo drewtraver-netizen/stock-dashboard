@@ -103,7 +103,7 @@ function drawChart(rows) {
       const pct = Math.round(payload.modelScore * 100);
       scoreEl.textContent = pct + '%';
       // Color: green if high, yellow if mid, red if low
-      scoreEl.style.color = pct >= 75 ? '#4caf84' : pct >= 40 ? '#f6c343' : '#f06292';
+      scoreEl.style.color = pct >= 50 ? '#4caf84' : pct >= 25 ? '#f6c343' : '#f06292';
     }
   } catch (err) {
     meta.textContent = `${err.message}. If you opened index.html directly, run a local web server first.`;
