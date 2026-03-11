@@ -51,12 +51,19 @@ function drawChart(rows) {
       },
       plugins: { legend: { display: true } },
       scales: {
-        x: { ticks: { maxTicksLimit: 12 } },
+        x: {
+          ticks: {
+            maxTicksLimit: 12,
+            color: '#ffffff',
+            font: { size: 13 }
+          }
+        },
         y: {
           type: 'linear',
           position: 'left',
           beginAtZero: false,
-          title: { display: true, text: 'S&P' }
+          title: { display: true, text: 'S&P', color: '#ffffff' },
+          ticks: { color: '#ffffff', font: { size: 13 } }
         },
         y1: {
           type: 'linear',
@@ -65,8 +72,10 @@ function drawChart(rows) {
           min: 0,
           max: 1,
           grid: { drawOnChartArea: false },
-          title: { display: true, text: 'Model Score' },
+          title: { display: true, text: 'Model Score', color: '#ffffff' },
           ticks: {
+            color: '#ffffff',
+            font: { size: 13 },
             callback: value => Math.round(value * 100) + '%'
           }
         }
