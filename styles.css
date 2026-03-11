@@ -44,6 +44,43 @@ h1 { margin: 0; }
 .chart-card {
   padding: 16px;
 }
+.holdings-card {
+  margin-top: 16px;
+  padding: 20px 24px;
+}
+.holdings-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 14px;
+}
+.holdings-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.holding-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #1a2340;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 16px;
+  min-width: 80px;
+}
+.holding-symbol {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+}
+.holding-pct {
+  font-size: 13px;
+  color: #7aa2ff;
+  margin-top: 2px;
+}
 .score-card {
   margin-top: 16px;
   padding: 24px;

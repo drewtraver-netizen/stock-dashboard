@@ -103,6 +103,14 @@ def main():
         ws_port = wb_port["Portfolios"]
         model_score = ws_port.cell(row=17, column=10).value
         sp_quote = ws_port.cell(row=5, column=22).value
+
+        # Portfolio weights: symbols M28:M43, weights Q28:Q43
+        portfolio_weights = []
+        for r in range(28, 44):
+            symbol = ws_port.cell(row=r, column=13).value  # M
+            weight = ws_port.cell(row=r, column=17).value  # Q
+            if symbol and weight and float(weight) > 0:
+                portfolio_weights.append({"symbol": str(symbol).strip(), "weight": float(weight)})
     except Exception as e:
         print(f"Warning: could not read Portfolios data: {e}", file=sys.stderr)
 
@@ -113,6 +121,7 @@ def main():
         "rows": rows,
         "modelScore": model_score,
         "spQuote": sp_quote,
+        "portfolioWeights": portfolio_weights,
     }
     content_hash = stable_hash(payload_core)
 

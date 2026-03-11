@@ -114,6 +114,17 @@ function drawChart(rows) {
     const latest = values[values.length - 1];
     meta.textContent = `Sheet: ${payload.sheet} • Points: ${rows.length} • Latest S&P: ${latest}`;
 
+    // Show portfolio weights
+    const holdingsEl = document.getElementById('holdingsList');
+    if (holdingsEl && payload.portfolioWeights && payload.portfolioWeights.length) {
+      holdingsEl.innerHTML = payload.portfolioWeights.map(h =>
+        `<div class="holding-item">
+          <span class="holding-symbol">${h.symbol}</span>
+          <span class="holding-pct">${(h.weight * 100).toFixed(1)}%</span>
+        </div>`
+      ).join('');
+    }
+
     // Show S&P quote
     const spEl = document.getElementById('spQuote');
     if (spEl && payload.spQuote != null) {
