@@ -105,11 +105,13 @@ def main():
         sp_quote = ws_port.cell(row=5, column=22).value
         ytd_return = ws_port.cell(row=21, column=16).value
 
-        # Index returns: symbols L52:N52, returns L61:N61
+        # Index returns: symbols in Models (Annual) row 13, values in row 14
         index_returns = []
-        for col in range(12, 15):  # L=12, M=13, N=14
-            symbol = ws_port.cell(row=52, column=col).value
-            ret = ws_port.cell(row=61, column=col).value
+        wb_models = _load_workbook(excel_path, data_only=True, read_only=True, keep_vba=True)
+        ws_models = wb_models["Models (Annual)"]
+        for col in range(1, 50):
+            symbol = ws_models.cell(row=13, column=col).value
+            ret = ws_models.cell(row=14, column=col).value
             if symbol and ret is not None:
                 index_returns.append({"symbol": str(symbol).strip(), "return": float(ret)})
 
