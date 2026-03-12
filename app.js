@@ -130,6 +130,19 @@ function drawChart(rows) {
       ).join('');
     }
 
+    // Show index returns
+    const indexEl = document.getElementById('indexReturnsList');
+    if (indexEl && payload.indexReturns && payload.indexReturns.length) {
+      indexEl.innerHTML = payload.indexReturns.map(h => {
+        const pct = (h.return * 100).toFixed(2);
+        const color = pct >= 0 ? '#4caf84' : '#f06292';
+        return `<div class="holding-item">
+          <span class="holding-symbol">${h.symbol}</span>
+          <span class="holding-pct" style="color:${color}">${pct >= 0 ? '+' : ''}${pct}%</span>
+        </div>`;
+      }).join('');
+    }
+
     // Show YTD return
     const ytdEl = document.getElementById('ytdReturn');
     if (ytdEl && payload.ytdReturn != null) {

@@ -105,6 +105,14 @@ def main():
         sp_quote = ws_port.cell(row=5, column=22).value
         ytd_return = ws_port.cell(row=21, column=16).value
 
+        # Index returns: symbols L52:N52, returns L61:N61
+        index_returns = []
+        for col in range(12, 15):  # L=12, M=13, N=14
+            symbol = ws_port.cell(row=52, column=col).value
+            ret = ws_port.cell(row=61, column=col).value
+            if symbol and ret is not None:
+                index_returns.append({"symbol": str(symbol).strip(), "return": float(ret)})
+
         # Portfolio weights: symbols M28:M43, weights Q28:Q43
         portfolio_weights = []
         for r in range(28, 44):
@@ -123,6 +131,7 @@ def main():
         "modelScore": model_score,
         "spQuote": sp_quote,
         "portfolioWeights": portfolio_weights,
+        "indexReturns": index_returns,
         "ytdReturn": ytd_return,
     }
     content_hash = stable_hash(payload_core)
