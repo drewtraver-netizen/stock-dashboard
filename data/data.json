@@ -768,7 +768,7 @@
       "Signal": 0.25
     }
   ],
-  "modelScore": null,
+  "modelScore": 0.95,
   "spQuote": 6702.42,
   "ytdReturn": 0.04157674046697957,
   "portfolioWeights": [
@@ -823,6 +823,6 @@
       "return": 0.1965024729988898
     }
   ],
-  "generatedAt": "2026-03-12T14:07:24.766944+00:00",
+  "generatedAt": "2026-03-12T14:20:12.044613+00:00",
   "rowCount": 152
 }
