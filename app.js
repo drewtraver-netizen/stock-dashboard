@@ -160,7 +160,7 @@ function drawChart(rows) {
     // Show current model score
     const scoreEl = document.getElementById('modelScore');
     if (scoreEl && payload.modelScore != null) {
-      const pct = Math.round(payload.modelScore * 100);
+      const pct = (payload.modelScore * 100).toFixed(2);
       scoreEl.textContent = pct + '%';
       // Color: green if high, yellow if mid, red if low
       scoreEl.style.color = pct >= 50 ? '#4caf84' : pct >= 25 ? '#f6c343' : '#f06292';
