@@ -151,3 +151,39 @@ h1 { margin: 0; }
 .key-dot.green  { background: #4caf84; }
 .key-dot.yellow { background: #f6c343; }
 .key-dot.red    { background: #f06292; }
+
+/* Daily Returns */
+.daily-returns-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.daily-returns-row .holdings-list {
+  flex: 1;
+  min-width: 160px;
+}
+.daily-portfolio-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 12px;
+  padding: 18px 28px;
+  min-width: 140px;
+}
+.daily-portfolio-label {
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 500;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.daily-portfolio-value {
+  font-size: 36px;
+  font-weight: 700;
+  color: #4caf84;
+}

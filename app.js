@@ -157,6 +157,27 @@ function drawChart(rows) {
       spEl.textContent = Number(payload.spQuote).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
     }
 
+    // Show daily returns
+    const dailyIndexEl = document.getElementById('dailyIndexReturnsList');
+    const dailyMyEl = document.getElementById('dailyMyReturn');
+    if (payload.dailyReturns) {
+      if (dailyIndexEl && payload.dailyReturns.indexDaily && payload.dailyReturns.indexDaily.length) {
+        dailyIndexEl.innerHTML = payload.dailyReturns.indexDaily.map(h => {
+          const pct = (h.return * 100).toFixed(2);
+          const color = pct >= 0 ? '#4caf84' : '#f06292';
+          return `<div class="holding-item">
+            <span class="holding-symbol">${h.symbol}</span>
+            <span class="holding-pct" style="color:${color}">${pct >= 0 ? '+' : ''}${pct}%</span>
+          </div>`;
+        }).join('');
+      }
+      if (dailyMyEl && payload.dailyReturns.myReturn != null) {
+        const pct = (payload.dailyReturns.myReturn * 100).toFixed(2);
+        dailyMyEl.textContent = (pct >= 0 ? '+' : '') + pct + '%';
+        dailyMyEl.style.color = pct >= 0 ? '#4caf84' : '#f06292';
+      }
+    }
+
     // Show current model score
     const scoreEl = document.getElementById('modelScore');
     if (scoreEl && payload.modelScore != null) {
