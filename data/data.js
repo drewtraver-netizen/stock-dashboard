@@ -776,11 +776,16 @@ window.DASHBOARD_DATA = {
       "Date": "2026-03-13T00:00:00",
       "S&P": 6632.19,
       "Signal": 0.25
+    },
+    {
+      "Date": "2026-03-16T00:00:00",
+      "S&P": 6699.38,
+      "Signal": 0.25
     }
   ],
   "modelScore": 0.25,
   "spQuote": 6699.38,
-  "ytdReturn": 0.04427357904317453,
+  "ytdReturn": 0.04451955379799721,
   "portfolioWeights": [
     {
       "symbol": "QQQ",
@@ -856,8 +861,8 @@ window.DASHBOARD_DATA = {
         "return": -0.0007486
       }
     ],
-    "myReturn": 0.0065168481716197935
+    "myReturn": 1.7999049106709464e-06
   },
-  "generatedAt": "2026-03-16T23:40:03.422821+00:00",
-  "rowCount": 154
+  "generatedAt": "2026-03-17T00:10:04.197548+00:00",
+  "rowCount": 155
 };
