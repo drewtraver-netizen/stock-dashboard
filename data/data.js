@@ -790,35 +790,35 @@ window.DASHBOARD_DATA = {
   ],
   "modelScore": 0.25,
   "spQuote": 6716.09,
-  "ytdReturn": 0.04682416267502387,
+  "ytdReturn": 0.046728993655115625,
   "portfolioWeights": [
     {
       "symbol": "QQQ",
-      "weight": 0.11039418755173021
+      "weight": 0.11040469256390553
     },
     {
       "symbol": "DIA",
-      "weight": 0.15317694432929072
+      "weight": 0.15319802711587185
     },
     {
       "symbol": "GLD",
-      "weight": 0.14007490423492955
+      "weight": 0.14007603375220284
     },
     {
       "symbol": "XLE",
-      "weight": 0.16056571178439485
+      "weight": 0.1606084408160178
     },
     {
       "symbol": "BTAL",
-      "weight": 0.08021068010532378
+      "weight": 0.08021831288191995
     },
     {
       "symbol": "BITO",
-      "weight": 0.12006086350298167
+      "weight": 0.11995537281934675
     },
     {
       "symbol": "CASH",
-      "weight": 0.23551670849134917
+      "weight": 0.23553912005073527
     }
   ],
   "indexReturns": [
@@ -832,22 +832,22 @@ window.DASHBOARD_DATA = {
     },
     {
       "symbol": "IWM",
-      "return": 0.015802087987975888
+      "return": 0.01576146565381653
     },
     {
       "symbol": "DIA",
-      "return": -0.020163555777514164
+      "return": -0.020121938531327377
     },
     {
       "symbol": "GLD",
-      "return": 0.15905420409811244
+      "return": 0.15895326536792176
     }
   ],
   "dailyReturns": {
     "indexDaily": [
       {
         "symbol": "S&P",
-        "return": 0.002526
+        "return": 0.002631
       },
       {
         "symbol": "QQQ",
@@ -855,19 +855,19 @@ window.DASHBOARD_DATA = {
       },
       {
         "symbol": "IWM",
-        "return": 0.006367
+        "return": 0.006327
       },
       {
         "symbol": "DIA",
-        "return": 0.0012330000000000002
+        "return": 0.001276
       },
       {
         "symbol": "GLD",
-        "return": -0.002433
+        "return": -0.002519
       }
     ],
-    "myReturn": 0.00019935333871079486
+    "myReturn": 0.00010418431880254708
   },
-  "generatedAt": "2026-03-17T20:39:05.548100+00:00",
+  "generatedAt": "2026-03-18T13:10:15.714841+00:00",
   "rowCount": 156
 };
