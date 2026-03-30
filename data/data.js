@@ -831,6 +831,11 @@ window.DASHBOARD_DATA = {
       "Date": "2026-03-30T00:00:00",
       "S&P": 6368.85,
       "Signal": 0.0625
+    },
+    {
+      "Date": "2026-03-30T00:00:00",
+      "S&P": 6343.72,
+      "Signal": 0.0625
     }
   ],
   "modelScore": 0.0625,
@@ -913,6 +918,6 @@ window.DASHBOARD_DATA = {
     ],
     "myReturn": 0.0007147394284596764
   },
-  "generatedAt": "2026-03-30T20:31:30.258634+00:00",
-  "rowCount": 165
+  "generatedAt": "2026-03-30T20:41:39.610235+00:00",
+  "rowCount": 166
 };
