@@ -843,7 +843,7 @@
       "Signal": 0.25
     }
   ],
-  "modelScore": 0.125,
+  "modelScore": 0.0625,
   "spQuote": 6528.52,
   "ytdReturn": 0.02589541359181946,
   "portfolioWeights": [
@@ -923,6 +923,6 @@
     ],
     "myReturn": 0.008712624758503873
   },
-  "generatedAt": "2026-04-01T07:05:50.731212+00:00",
+  "generatedAt": "2026-04-01T13:30:51.956098+00:00",
   "rowCount": 167
 }
