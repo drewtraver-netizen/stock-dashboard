@@ -854,46 +854,46 @@
     }
   ],
   "modelScore": 0.25,
-  "spQuote": 6606.05,
-  "ytdReturn": 0.02712786856024496,
+  "spQuote": 6606.98,
+  "ytdReturn": 0.026831894567614034,
   "portfolioWeights": [
     {
       "symbol": "QQQ",
-      "weight": 0.09750079384827928
+      "weight": 0.09751969228939458
     },
     {
       "symbol": "DIA",
-      "weight": 0.12557843865191737
+      "weight": 0.12562621988733874
     },
     {
       "symbol": "GLD",
-      "weight": 0.11527383123342064
+      "weight": 0.11527479395800262
     },
     {
       "symbol": "XLE",
-      "weight": 0.12950802881370985
+      "weight": 0.12948047113599273
     },
     {
       "symbol": "BTAL",
-      "weight": 0.07215436960056067
+      "weight": 0.07217563127960808
     },
     {
       "symbol": "BITO",
-      "weight": 0.0944300240490324
+      "weight": 0.09426095994646588
     },
     {
       "symbol": "CASH",
-      "weight": 0.3655545138030798
+      "weight": 0.3656622315031975
     }
   ],
   "indexReturns": [
     {
       "symbol": "S&P",
-      "return": -0.0349791834051566
+      "return": -0.0348433277335477
     },
     {
       "symbol": "QQQ",
-      "return": -0.0424552750240107
+      "return": -0.04255180609138709
     },
     {
       "symbol": "IWM",
@@ -912,27 +912,27 @@
     "indexDaily": [
       {
         "symbol": "S&P",
-        "return": 0.0037199999999999998
+        "return": 0.0031190000000000002
       },
       {
         "symbol": "QQQ",
-        "return": 0.005453
+        "return": 0.004667
       },
       {
         "symbol": "IWM",
-        "return": 0.005153
+        "return": 0.00386
       },
       {
         "symbol": "DIA",
-        "return": 0.0026019999999999997
+        "return": 0.002043
       },
       {
         "symbol": "GLD",
-        "return": -0.003633
+        "return": -0.004704
       }
     ],
-    "myReturn": 0.0044275811342486815
+    "myReturn": 0.0039020768424777863
   },
-  "generatedAt": "2026-04-06T19:06:35.761486+00:00",
+  "generatedAt": "2026-04-06T19:11:33.855975+00:00",
   "rowCount": 169
 }
