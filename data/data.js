@@ -859,50 +859,50 @@ window.DASHBOARD_DATA = {
     }
   ],
   "modelScore": 0.1875,
-  "spQuote": 6584.71,
-  "ytdReturn": 0.02571074215480329,
+  "spQuote": 6583.27,
+  "ytdReturn": 0.025733567881631947,
   "portfolioWeights": [
     {
       "symbol": "QQQ",
-      "weight": 0.0968859565155266
+      "weight": 0.09683445357037257
     },
     {
       "symbol": "DIA",
-      "weight": 0.12515971629747702
+      "weight": 0.12515685347036462
     },
     {
       "symbol": "GLD",
-      "weight": 0.11591490321549898
+      "weight": 0.11587178817066218
     },
     {
       "symbol": "XLE",
-      "weight": 0.13061195847660728
+      "weight": 0.13065254720678735
     },
     {
       "symbol": "BTAL",
-      "weight": 0.07265471437964503
+      "weight": 0.07267380312403995
     },
     {
       "symbol": "BITO",
-      "weight": 0.09265455217537968
+      "weight": 0.09270072988257776
     },
     {
       "symbol": "CASH",
-      "weight": 0.36611819893986547
+      "weight": 0.3661098245751955
     }
   ],
   "indexReturns": [
     {
       "symbol": "S&P",
-      "return": -0.038096559783799555
+      "return": -0.038306916952742576
     },
     {
       "symbol": "QQQ",
-      "return": -0.04995849001318542
+      "return": -0.050441796487115664
     },
     {
       "symbol": "IWM",
-      "return": 0.020351789413819876
+      "return": 0.02053865215095274
     },
     {
       "symbol": "DIA",
@@ -910,22 +910,22 @@ window.DASHBOARD_DATA = {
     },
     {
       "symbol": "GLD",
-      "return": 0.08430907439184421
+      "return": 0.08393055415362882
     }
   ],
   "dailyReturns": {
     "indexDaily": [
       {
         "symbol": "S&P",
-        "return": -0.005585
+        "return": -0.0058579999999999995
       },
       {
         "symbol": "QQQ",
-        "return": -0.008292
+        "return": -0.008797000000000001
       },
       {
         "symbol": "IWM",
-        "return": -0.0046760000000000005
+        "return": -0.004494000000000001
       },
       {
         "symbol": "DIA",
@@ -933,11 +933,11 @@ window.DASHBOARD_DATA = {
       },
       {
         "symbol": "GLD",
-        "return": 0.00477
+        "return": 0.00442
       }
     ],
-    "myReturn": -0.0021066463734504826
+    "myReturn": -0.0020838206466218256
   },
-  "generatedAt": "2026-04-07T18:46:34.156642+00:00",
+  "generatedAt": "2026-04-07T18:51:30.460991+00:00",
   "rowCount": 170
 };
