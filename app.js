@@ -1,7 +1,15 @@
 async function loadData() {
-  // Use inline data.js if available (works when opened via file://)
+  // Always fetch live from GitHub — no Vercel redeploy needed
+  const GITHUB_RAW = 'https://raw.githubusercontent.com/drewtraver-netizen/stock-dashboard/main/data/data.json';
+  try {
+    const res = await fetch(GITHUB_RAW, { cache: 'no-store' });
+    if (res.ok) return res.json();
+  } catch (e) {
+    console.warn('GitHub fetch failed, falling back to bundled data', e);
+  }
+  // Fallback: inline data.js bundled with deploy
   if (window.DASHBOARD_DATA) return window.DASHBOARD_DATA;
-  // Fall back to fetch (works when served over http)
+  // Last resort: local data.json
   const res = await fetch('./data/data.json', { cache: 'no-store' });
   if (!res.ok) throw new Error(`Failed to load data: ${res.status}`);
   return res.json();
