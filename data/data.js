@@ -915,34 +915,34 @@ window.DASHBOARD_DATA = {
     },
     {
       "symbol": "GLD",
-      "return": 0.10617492681942076
+      "return": 0.10702028868476843
     }
   ],
   "dailyReturns": {
     "indexDaily": [
       {
         "symbol": "S&P",
-        "return": 0.005488
+        "return": 0.005873000000000001
       },
       {
         "symbol": "QQQ",
-        "return": 0.004999
+        "return": 0.005395
       },
       {
         "symbol": "IWM",
-        "return": 0.005298000000000001
+        "return": 0.005758999999999999
       },
       {
         "symbol": "DIA",
-        "return": 0.006011
+        "return": 0.006641
       },
       {
         "symbol": "GLD",
-        "return": 0.008803
+        "return": 0.009574000000000001
       }
     ],
-    "myReturn": 0.0015331623544276862
+    "myReturn": 0.0016754518237749316
   },
-  "generatedAt": "2026-04-09T19:21:47.709221+00:00",
+  "generatedAt": "2026-04-09T19:26:43.013404+00:00",
   "rowCount": 171
 };
