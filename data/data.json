@@ -922,27 +922,27 @@
     "indexDaily": [
       {
         "symbol": "S&P",
-        "return": 0.004896
+        "return": 0.003994
       },
       {
         "symbol": "QQQ",
-        "return": 0.003693
+        "return": 0.0027389999999999997
       },
       {
         "symbol": "IWM",
-        "return": 0.005183
+        "return": 0.004262
       },
       {
         "symbol": "DIA",
-        "return": 0.006313
+        "return": 0.00551
       },
       {
         "symbol": "GLD",
-        "return": 0.010976999999999999
+        "return": 0.009412
       }
     ],
-    "myReturn": 0.0012996731487584512
+    "myReturn": 0.0010334610525160048
   },
-  "generatedAt": "2026-04-09T18:21:43.584283+00:00",
+  "generatedAt": "2026-04-09T18:31:40.619689+00:00",
   "rowCount": 171
 }
