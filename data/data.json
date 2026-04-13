@@ -879,50 +879,50 @@
     }
   ],
   "modelScore": 0.625,
-  "spQuote": 6850.0,
-  "ytdReturn": 0.031148778440529434,
+  "spQuote": 6848.22,
+  "ytdReturn": 0.031193184877917113,
   "portfolioWeights": [
     {
       "symbol": "QQQ",
-      "weight": 0.11405892317263917
+      "weight": 0.11405663624856618
     },
     {
       "symbol": "DIA",
-      "weight": 0.15848447521088696
+      "weight": 0.15847577446509142
     },
     {
       "symbol": "GLD",
-      "weight": 0.1254616470058677
+      "weight": 0.12552830874137777
     },
     {
       "symbol": "XLE",
-      "weight": 0.1524980013350636
+      "weight": 0.15234363732289596
     },
     {
       "symbol": "BTAL",
-      "weight": 0.06778182052870438
+      "weight": 0.06777880554944411
     },
     {
       "symbol": "BITO",
-      "weight": 0.11761975222626855
+      "weight": 0.11773320428556075
     },
     {
       "symbol": "CASH",
-      "weight": 0.2640953805205695
+      "weight": 0.2640836333870639
     }
   ],
   "indexReturns": [
     {
       "symbol": "S&P",
-      "return": 0.000657366152947203
+      "return": 0.00039734131911473014
     },
     {
       "symbol": "QQQ",
-      "return": -0.000561605703960355
+      "return": -0.0005371880646577454
     },
     {
       "symbol": "IWM",
-      "return": 0.07247024414022829
+      "return": 0.07210464313279452
     },
     {
       "symbol": "DIA",
@@ -937,27 +937,27 @@
     "indexDaily": [
       {
         "symbol": "S&P",
-        "return": 0.004283
+        "return": 0.004562
       },
       {
         "symbol": "QQQ",
-        "return": 0.004762
+        "return": 0.00522
       },
       {
         "symbol": "IWM",
-        "return": 0.010027
+        "return": 0.010142
       },
       {
         "symbol": "DIA",
-        "return": 0.001283
+        "return": 0.0014810000000000001
       },
       {
         "symbol": "GLD",
-        "return": -0.0062450000000000006
+        "return": -0.005662
       }
     ],
-    "myReturn": -0.0016683666810911602
+    "myReturn": -0.001309303028429687
   },
-  "generatedAt": "2026-04-13T18:31:39.892264+00:00",
+  "generatedAt": "2026-04-13T18:36:39.620279+00:00",
   "rowCount": 174
 }
