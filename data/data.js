@@ -912,23 +912,23 @@ window.DASHBOARD_DATA = {
     },
     {
       "symbol": "GLD",
-      "weight": 0.15419709524329894
+      "weight": 0.15419834887305817
     },
     {
       "symbol": "XLE",
-      "weight": 0.15423835490058158
+      "weight": 0.1542396088657838
     },
     {
       "symbol": "BTAL",
-      "weight": 0.063903180773849
+      "weight": 0.06390370030976504
     },
     {
       "symbol": "BITO",
-      "weight": 0.1324983772539528
+      "weight": 0.132499454472097
     },
     {
       "symbol": "CASH",
-      "weight": 0.20706385969282404
+      "weight": 0.20706554313190673
     }
   ],
   "indexReturns": [
@@ -976,8 +976,8 @@ window.DASHBOARD_DATA = {
         "return": 0.014066
       }
     ],
-    "myReturn": 0.0037388658433754607
+    "myReturn": 0.0037307054647337523
   },
-  "generatedAt": "2026-04-17T19:53:26.945510+00:00",
+  "generatedAt": "2026-04-17T19:59:07.965878+00:00",
   "rowCount": 178
 };
