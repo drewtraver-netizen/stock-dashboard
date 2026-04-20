@@ -929,11 +929,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "symbol": "BITO",
-      "weight": 0.1294087005714036
+      "weight": 0.1294098228089198
     },
     {
       "symbol": "CASH",
-      "weight": 0.2078755144864571
+      "weight": 0.2078773171913759
     }
   ],
   "indexReturns": [
@@ -981,8 +981,8 @@ window.DASHBOARD_DATA = {
         "return": -0.008544000000000001
       }
     ],
-    "myReturn": -0.00437799311988718
+    "myReturn": -0.00438662711956217
   },
-  "generatedAt": "2026-04-20T16:46:40.938547+00:00",
+  "generatedAt": "2026-04-20T16:56:43.292653+00:00",
   "rowCount": 179
 };
