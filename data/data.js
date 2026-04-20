@@ -905,35 +905,35 @@ window.DASHBOARD_DATA = {
   ],
   "modelScore": 0.75,
   "spQuote": 7114.23,
-  "ytdReturn": 0.04328668672968172,
+  "ytdReturn": 0.04329481284702286,
   "portfolioWeights": [
     {
       "symbol": "QQQ",
-      "weight": 0.11880377761268203
+      "weight": 0.11880280797288179
     },
     {
       "symbol": "DIA",
-      "weight": 0.16146243146410047
+      "weight": 0.1614611136575211
     },
     {
       "symbol": "GLD",
-      "weight": 0.15336025403146136
+      "weight": 0.15335900235235594
     },
     {
       "symbol": "XLE",
-      "weight": 0.15591121157812335
+      "weight": 0.155909939078889
     },
     {
       "symbol": "BTAL",
-      "weight": 0.06438760086632438
+      "weight": 0.06438707535457974
     },
     {
       "symbol": "BITO",
-      "weight": 0.12940724829292236
+      "weight": 0.12940619211086393
     },
     {
       "symbol": "CASH",
-      "weight": 0.20787318162062088
+      "weight": 0.20787148502380928
     }
   ],
   "indexReturns": [
@@ -981,8 +981,8 @@ window.DASHBOARD_DATA = {
         "return": -0.008544000000000001
       }
     ],
-    "myReturn": -0.004366819708543135
+    "myReturn": -0.004358693591202001
   },
-  "generatedAt": "2026-04-20T15:26:36.425775+00:00",
+  "generatedAt": "2026-04-20T15:31:34.846682+00:00",
   "rowCount": 179
 };
