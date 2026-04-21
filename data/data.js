@@ -909,73 +909,73 @@ window.DASHBOARD_DATA = {
     }
   ],
   "modelScore": 0.6875,
-  "spQuote": 7075.05,
-  "ytdReturn": 0.0398910550030116,
+  "spQuote": 7088.29,
+  "ytdReturn": 0.039848773986325026,
   "portfolioWeights": [
     {
       "symbol": "QQQ",
-      "weight": 0.11899171023797753
+      "weight": 0.11903360640311977
     },
     {
       "symbol": "DIA",
-      "weight": 0.16152221788866938
+      "weight": 0.16154217252589909
     },
     {
       "symbol": "GLD",
-      "weight": 0.15060930692480204
+      "weight": 0.15053913658118603
     },
     {
       "symbol": "XLE",
-      "weight": 0.15686367895342607
+      "weight": 0.1567858681720061
     },
     {
       "symbol": "BTAL",
-      "weight": 0.06404518715898858
+      "weight": 0.06410522272123934
     },
     {
       "symbol": "BITO",
-      "weight": 0.13068626418120277
+      "weight": 0.13070313973537875
     },
     {
       "symbol": "CASH",
-      "weight": 0.2085404773088473
+      "weight": 0.20854932562993173
     }
   ],
   "indexReturns": [
     {
       "symbol": "S&P",
-      "return": 0.03353297786867282
+      "return": 0.035467095172010854
     },
     {
       "symbol": "QQQ",
-      "return": 0.051407269945141776
+      "return": 0.05173283846917687
     },
     {
       "symbol": "IWM",
-      "return": 0.11967339643335917
+      "return": 0.11997806393955401
     },
     {
       "symbol": "DIA",
-      "return": 0.026218865097696442
+      "return": 0.026302099590070016
     },
     {
       "symbol": "GLD",
-      "return": 0.09215706066417706
+      "return": 0.09160189764812765
     }
   ],
   "dailyReturns": {
     "indexDaily": [
       {
         "symbol": "S&P",
-        "return": -0.003767
+        "return": -0.003584
       },
       {
         "symbol": "QQQ",
-        "return": -0.001391
+        "return": -0.001082
       },
       {
         "symbol": "IWM",
-        "return": -0.006202
+        "return": -0.005931
       },
       {
         "symbol": "DIA",
@@ -988,6 +988,6 @@ window.DASHBOARD_DATA = {
     ],
     "myReturn": -0.0035054880121850873
   },
-  "generatedAt": "2026-04-21T17:51:43.028916+00:00",
+  "generatedAt": "2026-04-21T17:56:36.294841+00:00",
   "rowCount": 180
 };
