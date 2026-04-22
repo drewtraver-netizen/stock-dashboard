@@ -923,76 +923,76 @@
     },
     {
       "symbol": "DIA",
-      "weight": 0.160452652003291
+      "weight": 0.160621480961448
     },
     {
       "symbol": "GLD",
-      "weight": 0.14969491126712256
+      "weight": 0.14987739781234843
     },
     {
       "symbol": "XLE",
-      "weight": 0.1579946720394788
+      "weight": 0.15751433108322044
     },
     {
       "symbol": "BTAL",
-      "weight": 0.06317661050115686
+      "weight": 0.0629389755986709
     },
     {
       "symbol": "BITO",
-      "weight": 0.1347280951618896
+      "weight": 0.13507069746261438
     },
     {
       "symbol": "CASH",
-      "weight": 0.215069024893098
+      "weight": 0.214947825702385
     }
   ],
   "indexReturns": [
     {
       "symbol": "S&P",
-      "return": 0.04137316485282305
+      "return": 0.0410430209626762
     },
     {
       "symbol": "QQQ",
-      "return": 0.061060376682782413
+      "return": 0.06295583662971471
     },
     {
       "symbol": "IWM",
-      "return": 0.1215826461388474
+      "return": 0.12479181053743349
     },
     {
       "symbol": "DIA",
-      "return": 0.029714713777389434
+      "return": 0.03137940362486202
     },
     {
       "symbol": "GLD",
-      "return": 0.09648480872110632
+      "return": 0.09844049661855259
     }
   ],
   "dailyReturns": {
     "indexDaily": [
       {
         "symbol": "S&P",
-        "return": 0.007826
+        "return": 0.009245999999999999
       },
       {
         "symbol": "QQQ",
-        "return": 0.011624
+        "return": 0.013432
       },
       {
         "symbol": "IWM",
-        "return": 0.005792
+        "return": 0.00867
       },
       {
         "symbol": "DIA",
-        "return": 0.007103000000000001
+        "return": 0.008731
       },
       {
         "symbol": "GLD",
-        "return": 0.011512
+        "return": 0.013316
       }
     ],
-    "myReturn": 0.012573321796467862
+    "myReturn": 0.013144265311426873
   },
-  "generatedAt": "2026-04-22T14:36:31.309859+00:00",
+  "generatedAt": "2026-04-22T14:41:16.764357+00:00",
   "rowCount": 181
 }
