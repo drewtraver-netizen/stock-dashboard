@@ -923,76 +923,76 @@ window.DASHBOARD_DATA = {
     },
     {
       "symbol": "DIA",
-      "weight": 0.16049996746055428
+      "weight": 0.16061612036169037
     },
     {
       "symbol": "GLD",
-      "weight": 0.14976514200368463
+      "weight": 0.1498023198998223
     },
     {
       "symbol": "XLE",
-      "weight": 0.15805689999900674
+      "weight": 0.15759991754247796
     },
     {
       "symbol": "BTAL",
-      "weight": 0.06302206208869386
+      "weight": 0.06294982020853795
     },
     {
       "symbol": "BITO",
-      "weight": 0.13459691712216176
+      "weight": 0.13505129376697353
     },
     {
       "symbol": "CASH",
-      "weight": 0.21505856514253327
+      "weight": 0.2149883211635941
     }
   ],
   "indexReturns": [
     {
       "symbol": "S&P",
-      "return": 0.04007011905631441
+      "return": 0.041386312175881956
     },
     {
       "symbol": "QQQ",
-      "return": 0.062151031238300014
+      "return": 0.062424508798489375
     },
     {
       "symbol": "IWM",
-      "return": 0.12247633749035214
+      "return": 0.12381687451760981
     },
     {
       "symbol": "DIA",
-      "return": 0.030068460369977235
+      "return": 0.031150716857065497
     },
     {
       "symbol": "GLD",
-      "return": 0.09705258907842951
+      "return": 0.09768345614212182
     }
   ],
   "dailyReturns": {
     "indexDaily": [
       {
         "symbol": "S&P",
-        "return": 0.008309
+        "return": 0.008777
       },
       {
         "symbol": "QQQ",
-        "return": 0.012664
+        "return": 0.012924999999999999
       },
       {
         "symbol": "IWM",
-        "return": 0.006594
+        "return": 0.007796
       },
       {
         "symbol": "DIA",
-        "return": 0.007449
+        "return": 0.008507
       },
       {
         "symbol": "GLD",
-        "return": 0.012035
+        "return": 0.012617
       }
     ],
-    "myReturn": 0.012622570076197936
+    "myReturn": 0.012953428227472363
   },
-  "generatedAt": "2026-04-22T14:46:29.088366+00:00",
+  "generatedAt": "2026-04-22T14:51:38.212486+00:00",
   "rowCount": 181
 };
