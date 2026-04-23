@@ -996,8 +996,8 @@ window.DASHBOARD_DATA = {
         "return": -0.009558
       }
     ],
-    "myReturn": -0.002708489426185623
+    "myReturn": 5.0085619336392995e-06
   },
-  "generatedAt": "2026-04-23T22:25:50.735746+00:00",
+  "generatedAt": "2026-04-23T22:26:39.429202+00:00",
   "rowCount": 182
 };
