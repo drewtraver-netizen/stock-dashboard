@@ -928,76 +928,76 @@ window.DASHBOARD_DATA = {
     },
     {
       "symbol": "DIA",
-      "weight": 0.16031089457855824
+      "weight": 0.16029257283037698
     },
     {
       "symbol": "GLD",
-      "weight": 0.14992472734436285
+      "weight": 0.14958492443025626
     },
     {
       "symbol": "XLE",
-      "weight": 0.15803791979942425
+      "weight": 0.15864708967089963
     },
     {
       "symbol": "BTAL",
-      "weight": 0.06257571515778612
+      "weight": 0.06268573751760381
     },
     {
       "symbol": "BITO",
-      "weight": 0.1254752000177271
+      "weight": 0.12536387307819602
     },
     {
       "symbol": "CASH",
-      "weight": 0.22392635467134994
+      "weight": 0.22397730409448308
     }
   ],
   "indexReturns": [
     {
       "symbol": "S&P",
-      "return": 0.043213790081075176
+      "return": 0.04166240596011983
     },
     {
       "symbol": "QQQ",
-      "return": 0.06867868014520373
+      "return": 0.06724617863944915
     },
     {
       "symbol": "IWM",
-      "return": 0.12753381809318776
+      "return": 0.12406060852256573
     },
     {
       "symbol": "DIA",
-      "return": 0.028705495557358907
+      "return": 0.02728010487546051
     },
     {
       "symbol": "GLD",
-      "return": 0.0980619763803372
+      "return": 0.09532401332391238
     }
   ],
   "dailyReturns": {
     "indexDaily": [
       {
         "symbol": "S&P",
-        "return": 0.0012720000000000001
+        "return": -0.0005484
       },
       {
         "symbol": "QQQ",
-        "return": 0.002122
+        "return": 0.0007785
       },
       {
         "symbol": "IWM",
-        "return": 0.003924
+        "return": 0.0008319
       },
       {
         "symbol": "DIA",
-        "return": -0.0007983999999999999
+        "return": -0.002183
       },
       {
         "symbol": "GLD",
-        "return": -0.00027570000000000003
+        "return": -0.002768
       }
     ],
-    "myReturn": -0.0008580550661833053
+    "myReturn": -0.0010853357093195681
   },
-  "generatedAt": "2026-04-23T16:09:11.146940+00:00",
+  "generatedAt": "2026-04-23T16:40:56.933247+00:00",
   "rowCount": 182
 };
