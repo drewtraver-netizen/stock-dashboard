@@ -929,46 +929,46 @@
     }
   ],
   "modelScore": 0.875,
-  "spQuote": 7163.99,
-  "ytdReturn": 0.05077527745113186,
+  "spQuote": 7164.84,
+  "ytdReturn": 0.05101716669446099,
   "portfolioWeights": [
     {
       "symbol": "QQQ",
-      "weight": 0.1341316623029571
+      "weight": 0.13414785685702607
     },
     {
       "symbol": "DIA",
-      "weight": 0.16952095198339662
+      "weight": 0.16932351098091097
     },
     {
       "symbol": "GLD",
-      "weight": 0.15699511049836215
+      "weight": 0.15704283750768247
     },
     {
       "symbol": "XLE",
-      "weight": 0.16049134417850355
+      "weight": 0.16046654498060825
     },
     {
       "symbol": "BTAL",
-      "weight": 0.06293909257930376
+      "weight": 0.06305044442762381
     },
     {
       "symbol": "BITO",
-      "weight": 0.1329073121351634
+      "weight": 0.1329984910436568
     },
     {
       "symbol": "CASH",
-      "weight": 0.18301452632231335
+      "weight": 0.18297031420249174
     }
   ],
   "indexReturns": [
     {
       "symbol": "S&P",
-      "return": 0.04652545467825586
+      "return": 0.046649623840479215
     },
     {
       "symbol": "QQQ",
-      "return": 0.07803877521121261
+      "return": 0.0784294574400548
     },
     {
       "symbol": "IWM",
@@ -987,27 +987,27 @@
     "indexDaily": [
       {
         "symbol": "S&P",
-        "return": -0.0004412
+        "return": -0.0004902
       },
       {
         "symbol": "QQQ",
-        "return": -0.002094
+        "return": -0.0021390000000000003
       },
       {
         "symbol": "IWM",
-        "return": 0.001771
+        "return": 0.001554
       },
       {
         "symbol": "DIA",
-        "return": -0.0006594999999999999
+        "return": -0.0008533
       },
       {
         "symbol": "GLD",
-        "return": -0.0055049999999999995
+        "return": -0.004743
       }
     ],
-    "myReturn": 0.0012920771268685183
+    "myReturn": 0.0014321422778513782
   },
-  "generatedAt": "2026-04-27T14:16:50.058603+00:00",
+  "generatedAt": "2026-04-27T14:21:44.382542+00:00",
   "rowCount": 184
 }
