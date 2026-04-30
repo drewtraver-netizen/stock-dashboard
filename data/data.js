@@ -979,7 +979,7 @@ window.DASHBOARD_DATA = {
   "indexReturns": [
     {
       "symbol": "S&P",
-      "return": 0.05310495946242044
+      "return": 0.05310203783507417
     },
     {
       "symbol": "QQQ",
@@ -1023,6 +1023,6 @@ window.DASHBOARD_DATA = {
     ],
     "myReturn": 0.008328677587329247
   },
-  "generatedAt": "2026-04-30T20:12:10.652000+00:00",
+  "generatedAt": "2026-04-30T20:17:10.090156+00:00",
   "rowCount": 187
 };
