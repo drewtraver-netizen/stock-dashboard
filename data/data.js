@@ -989,50 +989,50 @@ window.DASHBOARD_DATA = {
   "indexReturns": [
     {
       "symbol": "S&P",
-      "return": 0.052402308085603755
+      "return": 0.05276312906288805
     },
     {
       "symbol": "QQQ",
-      "return": 0.09596132245934474
+      "return": 0.0959938793117483
     },
     {
       "symbol": "IWM",
-      "return": 0.1293821342974366
+      "return": 0.12954462363407404
     },
     {
       "symbol": "DIA",
-      "return": 0.02053811099319569
+      "return": 0.0201947687121542
     },
     {
       "symbol": "GLD",
-      "return": 0.048072070253356136
+      "return": 0.047945896840617674
     }
   ],
   "dailyReturns": {
     "indexDaily": [
       {
         "symbol": "S&P",
-        "return": -0.002956
+        "return": -0.003146
       },
       {
         "symbol": "QQQ",
-        "return": -0.00132
+        "return": -0.0012909999999999998
       },
       {
         "symbol": "IWM",
-        "return": -0.0045119999999999995
+        "return": -0.004368
       },
       {
         "symbol": "DIA",
-        "return": -0.009252
+        "return": -0.009585
       },
       {
         "symbol": "GLD",
-        "return": -0.01855
+        "return": -0.018668
       }
     ],
-    "myReturn": -0.00028489242942264514
+    "myReturn": -0.0009206839110957876
   },
-  "generatedAt": "2026-05-04T17:56:31.841047+00:00",
+  "generatedAt": "2026-05-04T18:01:33.479095+00:00",
   "rowCount": 189
 };
