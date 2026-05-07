@@ -969,58 +969,58 @@ window.DASHBOARD_DATA = {
     }
   ],
   "modelScore": 0.9375,
-  "spQuote": 7330.98,
-  "ytdReturn": 0.05822570170498509,
+  "spQuote": 7331.51,
+  "ytdReturn": 0.05822898667624177,
   "portfolioWeights": [
     {
       "symbol": "QQQ",
-      "weight": 0.13974712975932718
+      "weight": 0.1397778506997023
     },
     {
       "symbol": "DIA",
-      "weight": 0.1795799553194636
+      "weight": 0.1795141823960029
     },
     {
       "symbol": "GLD",
-      "weight": 0.16528257796852314
+      "weight": 0.16523081370574388
     },
     {
       "symbol": "XLE",
-      "weight": 0.15528748616595855
+      "weight": 0.15542578403539833
     },
     {
       "symbol": "BTAL",
-      "weight": 0.061257748107643555
+      "weight": 0.06120725245086345
     },
     {
       "symbol": "BITO",
-      "weight": 0.13553804852851548
+      "weight": 0.13553760135366097
     },
     {
       "symbol": "CASH",
-      "weight": 0.16330705415056854
+      "weight": 0.16330651535862806
     }
   ],
   "indexReturns": [
     {
       "symbol": "S&P",
-      "return": 0.07091958220728944
+      "return": 0.07099700533196995
     },
     {
       "symbol": "QQQ",
-      "return": 0.13078901531799914
+      "return": 0.1310413309241263
     },
     {
       "symbol": "IWM",
-      "return": 0.14636226997603274
+      "return": 0.14577324613072284
     },
     {
       "symbol": "DIA",
-      "return": 0.0319412364483842
+      "return": 0.0315666812327029
     },
     {
       "symbol": "GLD",
-      "return": 0.0911830019178359
+      "return": 0.09084485717169688
     }
   ],
   "dailyReturns": {
@@ -1048,6 +1048,6 @@ window.DASHBOARD_DATA = {
     ],
     "myReturn": -0.004329986045548795
   },
-  "generatedAt": "2026-05-07T19:46:38.417644+00:00",
+  "generatedAt": "2026-05-07T19:51:33.612290+00:00",
   "rowCount": 192
 };
