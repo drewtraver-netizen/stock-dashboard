@@ -984,58 +984,58 @@
     }
   ],
   "modelScore": 0.9375,
-  "spQuote": 7347.62,
-  "ytdReturn": 0.06284744602230097,
+  "spQuote": 7346.4,
+  "ytdReturn": 0.06259344823905144,
   "portfolioWeights": [
     {
       "symbol": "QQQ",
-      "weight": 0.12577199182233145
+      "weight": 0.1257428253693333
     },
     {
       "symbol": "DIA",
-      "weight": 0.17871197778026207
+      "weight": 0.1788442594747477
     },
     {
       "symbol": "GLD",
-      "weight": 0.1631349261514602
+      "weight": 0.16324515590221772
     },
     {
       "symbol": "XLE",
-      "weight": 0.15936095106271672
+      "weight": 0.15929107730293793
     },
     {
       "symbol": "BTAL",
-      "weight": 0.06130230462903496
+      "weight": 0.06134903331214203
     },
     {
       "symbol": "BITO",
-      "weight": 0.13468150983705302
+      "weight": 0.13444605634127516
     },
     {
       "symbol": "CASH",
-      "weight": 0.17703633871714158
+      "weight": 0.17708159229734613
     }
   ],
   "indexReturns": [
     {
       "symbol": "S&P",
-      "return": 0.07335037615952089
+      "return": 0.07317215689138834
     },
     {
       "symbol": "QQQ",
-      "return": 0.13556673340821424
+      "return": 0.1350132669173545
     },
     {
       "symbol": "IWM",
-      "return": 0.13129138400292484
+      "return": 0.13181947434699604
     },
     {
       "symbol": "DIA",
-      "return": 0.03129596104625754
+      "return": 0.03179557608673034
     },
     {
       "symbol": "GLD",
-      "return": 0.08155849399414561
+      "return": 0.08201271828000412
     }
   ],
   "dailyReturns": {
@@ -1046,23 +1046,23 @@
       },
       {
         "symbol": "QQQ",
-        "return": -0.022487
+        "return": -0.022837999999999997
       },
       {
         "symbol": "IWM",
-        "return": -0.023517
+        "return": -0.023692
       },
       {
         "symbol": "DIA",
-        "return": -0.002535
+        "return": -0.002052
       },
       {
         "symbol": "GLD",
-        "return": -0.013505
+        "return": -0.012723
       }
     ],
-    "myReturn": -0.006336352051821481
+    "myReturn": -0.005863935329293746
   },
-  "generatedAt": "2026-05-12T16:51:39.455337+00:00",
+  "generatedAt": "2026-05-12T16:56:33.604812+00:00",
   "rowCount": 195
 }
