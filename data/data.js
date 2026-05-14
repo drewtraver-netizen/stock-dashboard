@@ -993,7 +993,7 @@ window.DASHBOARD_DATA = {
       "Signal": 0.9375
     }
   ],
-  "modelScore": 0.8125,
+  "modelScore": 0.9375,
   "spQuote": 7444.25,
   "ytdReturn": 0.06510921315383911,
   "portfolioWeights": [
@@ -1073,6 +1073,6 @@ window.DASHBOARD_DATA = {
     ],
     "myReturn": 7.427292468786817e-05
   },
-  "generatedAt": "2026-05-14T13:16:35.686578+00:00",
+  "generatedAt": "2026-05-14T13:21:30.371415+00:00",
   "rowCount": 197
 };
