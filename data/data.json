@@ -999,7 +999,7 @@
     }
   ],
   "modelScore": 0.9375,
-  "spQuote": 7408.66,
+  "spQuote": 7408.5,
   "ytdReturn": 0.06380340873142509,
   "portfolioWeights": [
     {
@@ -1034,7 +1034,7 @@
   "indexReturns": [
     {
       "symbol": "S&P",
-      "return": 0.08226718282083123
+      "return": 0.0822438098020597
     },
     {
       "symbol": "QQQ",
@@ -1078,6 +1078,6 @@
     ],
     "myReturn": -0.006963857417345731
   },
-  "generatedAt": "2026-05-15T20:11:29.883958+00:00",
+  "generatedAt": "2026-05-15T20:12:39.000633+00:00",
   "rowCount": 198
 }
