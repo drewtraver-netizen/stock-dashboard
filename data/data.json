@@ -999,46 +999,46 @@
     }
   ],
   "modelScore": 0.9375,
-  "spQuote": 7426.3,
-  "ytdReturn": 0.06397510421939956,
+  "spQuote": 7418.95,
+  "ytdReturn": 0.06369458344818113,
   "portfolioWeights": [
     {
       "symbol": "QQQ",
-      "weight": 0.1278576967274957
+      "weight": 0.12769203400556725
     },
     {
       "symbol": "DIA",
-      "weight": 0.17858507174874166
+      "weight": 0.17853643459351948
     },
     {
       "symbol": "GLD",
-      "weight": 0.15889708418324186
+      "weight": 0.15877652397677552
     },
     {
       "symbol": "XLE",
-      "weight": 0.1639237724775819
+      "weight": 0.16409439798556705
     },
     {
       "symbol": "BTAL",
-      "weight": 0.06092614382833315
+      "weight": 0.06096837955213886
     },
     {
       "symbol": "BITO",
-      "weight": 0.13295138751973343
+      "weight": 0.1330234203989096
     },
     {
       "symbol": "CASH",
-      "weight": 0.17685884351487233
+      "weight": 0.1769088094875223
     }
   ],
   "indexReturns": [
     {
       "symbol": "S&P",
-      "return": 0.0848440581403842
+      "return": 0.08377036009057037
     },
     {
       "symbol": "QQQ",
-      "return": 0.15555664078396902
+      "return": 0.15373345704937247
     },
     {
       "symbol": "IWM",
@@ -1057,27 +1057,27 @@
     "indexDaily": [
       {
         "symbol": "S&P",
-        "return": -0.012497000000000001
+        "return": -0.012096
       },
       {
         "symbol": "QQQ",
-        "return": -0.015338000000000001
+        "return": -0.015087999999999999
       },
       {
         "symbol": "IWM",
-        "return": -0.024404
+        "return": -0.024011
       },
       {
         "symbol": "DIA",
-        "return": -0.010077000000000001
+        "return": -0.010297
       },
       {
         "symbol": "GLD",
-        "return": -0.022846
+        "return": -0.023067999999999998
       }
     ],
-    "myReturn": -0.007072682700589694
+    "myReturn": -0.006963857417345731
   },
-  "generatedAt": "2026-05-15T19:56:45.965754+00:00",
+  "generatedAt": "2026-05-15T20:01:52.999771+00:00",
   "rowCount": 198
 }
