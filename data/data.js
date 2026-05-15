@@ -999,7 +999,7 @@ window.DASHBOARD_DATA = {
     }
   ],
   "modelScore": 0.9375,
-  "spQuote": 7415.16,
+  "spQuote": 7408.66,
   "ytdReturn": 0.06380340873142509,
   "portfolioWeights": [
     {
@@ -1034,7 +1034,7 @@ window.DASHBOARD_DATA = {
   "indexReturns": [
     {
       "symbol": "S&P",
-      "return": 0.08321671170842149
+      "return": 0.08226718282083123
     },
     {
       "symbol": "QQQ",
@@ -1078,6 +1078,6 @@ window.DASHBOARD_DATA = {
     ],
     "myReturn": -0.006963857417345731
   },
-  "generatedAt": "2026-05-15T20:06:31.125920+00:00",
+  "generatedAt": "2026-05-15T20:11:29.883958+00:00",
   "rowCount": 198
 };
